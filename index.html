@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prachi | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo">Prachi<span>.</span></h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="#internship">Internship</a>
+
+        </nav>
+
+        <button class="theme-btn" onclick="changeTheme()">☀ Theme</button>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <p class="welcome-text">WELCOME TO MY PORTFOLIO</p>
+
+            <h2>Hi, I'm <span>Prachi</span></h2>
+
+            <h3>A Student & Future Web Developer</h3>
+
+            <p>
+                I love creating websites, learning new technologies
+                and turning my ideas into reality.
+            </p>
+
+            <a href="#projects" class="main-btn">Explore My Work</a>
+            <button onclick="welcome()" class="second-btn">Say Hello</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <img src="profile.jpg" alt="Photo">
+
+            <div>
+                <h3>Hey! I'm Prachi</h3>
+
+                <p>
+                    I am a student who enjoys learning and exploring
+                    the world of technology. I am interested in web
+                    development and creative projects.
+                </p>
+
+                <p>
+                    I believe in learning by doing and improving
+                    my skills through practical experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+
+<section id="education">
+
+    <h2 class="heading">My <span>Education</span></h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>🎓 School Education</h3>
+
+            <p>
+                I completed my schooling from Mamta Modern Sr. Sec. School.
+            </p>
+
+            <p><b>Class:</b>12th</p>
+            <p><b>Year:</b> 2026</p>
+
+        </div>
+
+        <div class="project-card">
+            <h3>📚 Higher Education</h3>
+
+            <p>
+                Currently pursuing B.Tech from South Asian University.
+            </p>
+
+            <p><b>Course:</b> Computer Science and Engineering</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Problem Solving</div>
+            <div class="skill-card">Creativity</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>🌐 Personal Portfolio</h3>
+
+                <p>
+                    A personal portfolio website created using
+                    HTML, CSS and JavaScript to showcase my
+                    introduction, skills and work.
+                </p>
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-card">
+                <h3>📦 Campus Parcel</h3>
+
+                <p>
+                    A project designed to solve the problem of
+                    misplaced parcels on campus. It helps users
+                    keep track of parcel details and makes it
+                    easier to identify and locate parcels.
+                </p>
+
+                <span>Campus Solution</span>
+                <span>Problem Solving</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <p class="contact-text">
+            Have an idea or want to connect? Send me a message!
+        </p>
+
+        <div class="contact-form">
+            <input type="text" id="name" placeholder="Your Name">
+
+            <input type="email" id="email" placeholder="Your Email">
+
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <button onclick="sendMessage()">Send Message</button>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+
+<section id="internship">
+    <h2 class="heading">My <span>Internship</span></h2>
+
+    <div class="project-card">
+        <h3>My Internship Journey</h3>
+
+        <p>
+            I have not completed any internship yet, but I am looking forward to future internship opportunities
+            where I can gain practical experience, improve
+            my technical skills and learn from professionals.
+        </p>
+
+        <p>
+            My goal is to apply my knowledge, work on real-world
+            projects and develop new skills.
+        </p>
+
+        <span>Learning</span>
+        <span>Teamwork</span>
+        <span>Skill Development</span>
+    </div>
+</section>
+
+
+    <footer>
+        <p>© 2026 Prachi. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
